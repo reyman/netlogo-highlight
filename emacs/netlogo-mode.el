@@ -107,6 +107,9 @@ netlogo-mode-syntax-table)
 ;; code for syntax highlighting
 (setq font-lock-defaults '((netlogo-font-lock-keywords)))
 
+(setq-local comment-start ";;")
+(setq-local comment-end "")
+
 ;;(set (make-local-variable 'font-lock-defaults) '(netlogo-font-lock-keywords))
 ;;(set (make-local-variable 'indent-line-function) 'netlogo-indent-line)
 
